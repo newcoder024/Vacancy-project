@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacature website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 id="titel">Vind hier je nieuwe baan!</h1><br><br>
+    <section id="section1">
+        <h1>Beschikbare vacatures:</h1>
+        <section class="vacatures">
+            <ul>
+                <li>Software developer - €3500 p/m</li>
+                <li>Data analyst - €4000 p/m</li>
+                <li>UX designer - €3000 p/m</li>
+                <li>Basisschool docent - €3000 p/m</li>
+                <li>Front-end developer - €3500 p/m</li>
+                <li>Back-end developer - €3700 p/m</li>
+            </ul>
+        </section>
+    </section><br>
+
+    <section id="section2">
+        <h2>Solliciteer hier voor een baan:</h2><br>
+
+        <form action="process.php" method="post">
+            <label for="naam">Naam en achternaam:</label>
+            <input type="text" name="naam" id="naam" required size="25"><br><br>
+
+            <label for="email">Emailadres:</label>
+            <input type="email" name="email" id="email" required placeholder="abc@email.com" size="30"><br><br>
+
+            <label for="motivatie">Motivatie:</label><br>
+            <textarea name="motivatie" id="motivatie" cols="35" rows="5" placeholder="Vul uw motivatie voor deze baan in:" required></textarea><br><br>
+
+            <label for="cv">Link hier uw cv:</label><br>
+            <input type="file" name="cv" id="cv" required><br><br>
+
+            <label for="vacature">Kies een baan waarvoor u wilt solliciteren:</label>
+            <select name="baan" id="baan" required>
+                <option value="geen">Kies een baan:</option>
+                <option value="Software developer">Software developer</option>
+                <option value="Data analyst">Data analyst</option>
+                <option value="UX designer">UX designer</option>
+                <option value="Basisschool docent">Basisschool docent</option>
+                <option value="Front-end developer">Front-end developer</option>
+                <option value="Back-end developer">Back-end developer</option>
+            </select><br><br>
+
+            <input type="submit" value="Verzend" id="btn">
+        </form>
+    </section>
+</body>
+</html>

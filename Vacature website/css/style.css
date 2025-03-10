@@ -1,0 +1,85 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #d3e9fc;
+}
+
+#titel{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+    width: 80vh;
+
+    width: 500px; 
+    margin: 0 auto; 
+    display: block;
+}
+
+#section1{
+    background-color: #ffffff;
+    padding: 20px;
+    width: auto;
+}
+
+.vacatures{
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+    height: 150px;
+    overflow: scroll;
+}
+
+.vacatures li{
+    list-style: none;
+    color: rgb(6, 17, 86);
+    background-color: rgb(250, 229, 204);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#section2{
+    background-color: #ffffff;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#naam, #email{
+    height: 30px;
+    border: 1.5px solid rgb(72, 72, 72);
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: rgb(242, 242, 242);
+}
+
+#baan{
+    border: 1.5px solid rgb(72, 72, 72);
+    border-radius: 5px;
+    height: 25px;
+}
+
+#btn{
+    background-color: #9cd0fd;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+    height: 2rem;
+    width: 6rem;
+}
+
+#btn:hover{
+    background-color: #488ce6;
+    color: white;
+    height: 2.5rem;
+    width: 6.5rem;
+    transition: 0.3s;
+}
